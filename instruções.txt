@@ -1,0 +1,88 @@
+No terminal, ir para o diretório 'Backend' e digitar "npm install";
+Após o comando, deverá aparecer dois arquivos de package.json;
+Em package.json alterar o 'script' para:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.30.0",
+    "sequelize-cli": "^6.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
+
+
+No terminal, ir para o diretório 'Frontend' e digitar "npm install";
+Após o comando, deverá aparecer dois arquivos de package.json;
+Em package.json alterar o 'script' para:
+
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.5",
+    "events": "^3.3.0",
+    "pdfmake": "^0.2.7",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
+-----------------
+Para executar:
+Abrir dois terminais e em um entrar em backend e outro em frontend;
+Em backend: npm start backend
+Em frontend: npm start index.js
