@@ -1,0 +1,19 @@
+.section{
+    padding: 10px;
+}
+
+.headers{
+    font-size: 1.5em;
+    color: #e69a0e;
+    margin-bottom: 20px;
+}
+
+.infos p{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.infos span{
+    padding: 10px;
+    font-family: 'Poppins';
+}

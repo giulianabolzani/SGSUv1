@@ -1,0 +1,40 @@
+.footer_style{
+    background-color: #ffffff;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+}
+
+.footer_aut{
+    display: flex;
+    background-color: #af4646;
+}
+
+.social_list{
+    display: flex; /*horizontal*/
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social_list li{
+    margin: 0 1em;
+}
+
+.social_list :hover{
+    color: #e69a0e;
+}
+
+.social_list sgv{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copy_right{
+    margin-top: 1em;
+}
+
+.copy_right span{
+    font-weight: bold;
+    color: #e69a0e;
+}

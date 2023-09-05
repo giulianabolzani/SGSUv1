@@ -1,0 +1,93 @@
+.header h1{
+    font-size: 1.5em;
+    color: #e69a0e;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e69a0e;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-top: 17px;
+}
+
+.menu_link a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    position: relative;
+}
+
+.menu_link a:hover{
+    color: #5269da;
+}
+
+
+.studentlist_container{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+    font-family: 'Poppins';
+    margin-left: 15%;
+    box-shadow: 7px 7px 7px rgb(180, 176, 176);
+}
+
+.studentlist_container th{
+    padding-bottom: .5em;
+    color: #080808;
+    font-size: 1.2em;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+}
+
+.studentlist_container tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #6b6c6e7e;
+}
+
+
+.studentlist_container td{
+    padding: 10px;
+    font-size: .9em;
+}
+
+.total{
+    background-color: #5269da;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-family: 'Poppins';
+    margin-left: 15%;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(180, 176, 176);
+}
+
+.button_pdf{
+    padding: 4px;
+    margin-right: 10px;
+    border: 0;
+    background-color: white;
+    color: #5269da;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button_pdf svg{
+   font-size: 1.2em;
+   margin-right: 2px;
+}
+
+.button_pdf:hover{
+    color: #e69a0e;
+}

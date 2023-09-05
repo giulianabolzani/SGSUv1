@@ -1,0 +1,115 @@
+.navbar{
+    display: flex;
+    padding: .3em;
+    background-color: #ffffff;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px rgb(180, 176, 176);
+}
+
+.navbar_logo{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.navbar_logo img{
+    display: block;
+    width: 80px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar li{
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    height: 40px;
+    box-shadow: 1px 1px 1px #e7090934;
+}
+
+.navbar li, 
+.navbar a{
+    text-decoration: none;
+    color: #e69a0e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 1.em;
+    border-radius: 5px;
+    margin: 1em;
+    font-family: 'Poppins';
+}
+
+.navbar li:hover{
+    border-radius: 5px;
+    background-color: #5773f2;
+}
+
+.navbar li:hover > a{
+    color: #ffffff;
+}
+
+.navbar li span svg{
+   color: #e69a0e;
+   display: block;
+}
+
+.navbar li:hover > span svg{
+    color: #ffffff; 
+}
+
+.nav_auth{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.nav_auth a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 15px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+
+.nav_auth svg{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.nav_auth span{
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav_auth a:hover{
+    background-color: #eee;
+}
+
+.nav_auth:hover{
+    width: 200px;
+    transition: all 0.5s ease;
+}
+
+
+.nav_auth_logout{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}

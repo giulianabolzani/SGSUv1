@@ -1,0 +1,54 @@
+.materials_card{
+    background-color: #e69a0e;
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 20%;
+    margin: 0.9%;
+}
+
+
+@keyframes showSidebar{
+    from{
+        opacity: 0;
+        width: 0;
+    }
+    to{
+        opacity: 1;
+        width: 300px;
+    }
+}
+
+.submit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit svg{
+    margin-top: 10px;
+    color: #FFF;
+    width: 30px;
+    height: 30px;
+}
+
+.submit svg:hover{
+    color: #5773f2;
+}
+
+.submit input{
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    list-style: none;
+    border: 1px solid #222;
+    margin-top: 5px;
+    color: black;
+    font-size: .9em;
+    padding: .6em 1em;
+    transition: .5;
+}
+
+.submit input:hover{
+    background-color: #5773f2;
+    color: #FFF;
+}

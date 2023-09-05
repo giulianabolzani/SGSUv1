@@ -1,0 +1,98 @@
+.register{
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    display: block;
+}
+
+.text h1{
+    color: #e69a0e;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.text h4,
+.text h1{
+    padding: 10px;
+}
+
+.text h4{
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+.form{
+    background-color: #f5b43ccb;
+    width: 500px;
+    height: 490px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(180, 176, 176);
+}
+
+.form h1{
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.submit{
+    width: 100%;
+    text-decoration: none;
+    background-color: #5773f2;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 1em;
+    padding: .5em;
+    border-radius: 3px;
+    list-style: none;
+    border-width: 0px;
+    color: white;
+}
+
+.submit:hover{
+    background-color: #020202;
+    color: #e69a0e;
+}
+
+.text img{
+    height: 90px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #5774f246;
+}
+
+.text ul{
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+
+.text li{
+    margin-bottom: 30px;
+    display: flex;
+    padding: 10px;
+}
+
+.text p{
+    margin-left: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+.form p{
+    color: white;
+    font-size: 15px;
+}

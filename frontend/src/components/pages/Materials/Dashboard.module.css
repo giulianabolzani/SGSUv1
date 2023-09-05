@@ -1,0 +1,87 @@
+.materialslist_container{
+    display: flex;
+    align-items: row;
+}
+
+.materialslist_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.materialslist_header h1{
+    font-size: 1.5em;
+    color: #e69a0e;
+    padding: 10px;
+}
+
+.materialslist_header button{
+    border: 0;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #5773f2;
+    border-radius: 5px;
+}
+
+.materialslist_header button:hover{
+    background-color: #e69a0e; 
+}
+
+.materials_card{
+    background-color: #e69a0e;
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 20%;
+    margin: 0.9%;
+}
+
+.materials_card p{
+    border-bottom: 1px solid #fbfcfd7e;
+    color: #fcfcfc;
+    margin-bottom: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.materials_card span{
+    font-weight: bold;
+}
+
+
+.materials_card_actions{
+    margin-top: 1.em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.materials_card_actions a,
+.materials_card_actions button{
+    text-decoration: none;
+    border-radius: 2px;
+    background-color: #FFF;
+    color: #222;
+    font-size: .9em;
+    padding: .6em 1em;
+    cursor: pointer;
+    margin-left: 1em;
+    border: 1px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.materials_card_actions a:hover,
+.materials_card_actions button:hover{
+    background-color: #5773f2;
+    color: #FFF;
+}
+
+.condicao{
+    margin-top: 50px;
+    margin-left: 10px;
+}

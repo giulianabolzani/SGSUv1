@@ -1,0 +1,21 @@
+.headers{
+    display: flex;
+    justify-content: center;
+    background-color: #5773f2;
+    padding: 10px;
+}
+
+.headers h1{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.headers span{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 10px ;
+}

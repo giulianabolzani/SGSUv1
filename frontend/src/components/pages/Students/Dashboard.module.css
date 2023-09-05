@@ -1,0 +1,66 @@
+.container{
+    height: 300px;
+}
+
+.studentlist_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.studentlist_header h1{
+    font-size: 1.5em;
+    color: #e69a0e;
+    padding: 10px;
+}
+
+.studentlist_header a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #e69a0e;
+    border-radius: 5px;
+}
+
+.studentlist_header a:hover{
+    background-color: #5773f2;
+}
+
+.studentlist_container{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Poppins';
+    
+}
+
+.studentlist_container th{
+    padding-bottom: 1em;
+    color: #080808;
+    font-size: .8em;
+}
+
+.studentlist_container td{
+    padding: 10px;
+    border-bottom: 1px solid #6b6c6e7e;
+    text-align: center ;
+    font-size: .9em;
+}
+
+.studentlist_container td svg{
+    width: 40px;
+    height: 23px;
+    color: black;
+    cursor: pointer;
+}
+
+.studentlist_container td svg:hover{
+    color: #e69a0e;
+}
+
+.condicao{
+    margin-top: 50px;
+    margin-left: 10px;
+}

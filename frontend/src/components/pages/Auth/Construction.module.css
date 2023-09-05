@@ -1,0 +1,29 @@
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headers{
+    padding: 30px;
+}
+
+.headers h1{
+    color: #e69a0e;
+    font-size: 6em;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.headers h2{
+    color: #e69a0e;
+    font-size: 3em;
+}
+
+.img{
+    display: flex;
+    justify-content: right;
+}
+
+.img img{
+    width: 400px;
+}

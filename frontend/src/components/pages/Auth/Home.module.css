@@ -1,0 +1,47 @@
+.header h1{
+    font-size: 2em;
+    color: #e69a0e;
+    padding: 10px;
+}
+
+.header h4{
+    padding: 10px;
+    font-family: 'Poppins';
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.funcionalidades_img img{
+    height: 380px;
+    width: 280px;
+    box-shadow: 10px 10px 10px rgb(180, 176, 176);
+}
+
+.novas_funcionalidades h1{
+    color: #e69a0e;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    
+}
+
+.novas_funcionalidades li,
+.novas_funcionalidades p{
+    padding: 5px;
+    font-family: 'Poppins';
+    list-style: none;
+}
+
+.novas_funcionalidades a{
+    padding: 7px;
+    color: black;
+    font-weight: bold;
+    list-style: none;
+}
+
+.novas_funcionalidades a:hover{
+    color: #5773f2;
+}
